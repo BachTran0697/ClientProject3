@@ -1,0 +1,33 @@
+/* User.css */
+
+/* Common styles for User and CreateUser components */
+.container {
+  margin-top: 20px;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-actions button {
+  margin-right: 5px;
+}
+
+/* Styles for the CreateUser form */
+.create-user-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.create-user-form .form-control {
+  margin-bottom: 15px;
+}
+
+.create-user-form button {
+  margin-right: 10px;
+}
